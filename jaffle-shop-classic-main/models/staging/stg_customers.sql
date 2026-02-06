@@ -1,3 +1,6 @@
+-- Model Name   : stg_customers
+-- Purpose      : The purpose of the dbt model "stg_customers" is to clean and transform raw customer data, extracting the customer ID, first name, and last name from the source, and presenting it in a structured format for further analysis.
+-- Source Models: raw_customers
 with source as (
 
     {#-
