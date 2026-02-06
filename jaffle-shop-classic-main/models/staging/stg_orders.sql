@@ -1,5 +1,6 @@
-
-
+-- Model Name   : stg_orders
+-- Purpose      : The purpose of the dbt model "stg_orders" is to transform raw order data by renaming and selecting relevant fields, providing a clear view of customer orders and their status for further analysis.
+-- Source Models: raw_orders
 with source as (
 
     {#-
