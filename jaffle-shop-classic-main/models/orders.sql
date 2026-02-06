@@ -1,5 +1,3 @@
--- Model Name   : orders
--- Source Models: stg_orders, stg_payments
 {% set payment_methods = ['credit_card', 'coupon', 'bank_transfer', 'gift_card'] %}
 
 with orders as (
