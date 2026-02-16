@@ -1,5 +1,6 @@
-
-
+-- Model Name   : stg_orders
+-- Purpose      : The purpose of this SQL model, named "stg_orders", is to select and rename specific columns from the "raw_orders" table, transforming the data for clarity and better understanding.
+-- Source Models: raw_orders
 with source as (
 
     {#-
