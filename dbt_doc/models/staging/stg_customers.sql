@@ -1,3 +1,4 @@
+-- Purpose      : The purpose of the "stg_customers" model is to transform raw customer data from the "raw_customers" source model into a more structured format, specifically by renaming and selecting relevant columns for further analysis.
 -- Model Name   : stg_customers
 -- Source Models: raw_customers
 with source as (
