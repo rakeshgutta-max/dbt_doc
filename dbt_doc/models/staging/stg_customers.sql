@@ -1,3 +1,6 @@
+-- Model Name   : stg_customers
+-- Purpose      : The purpose of this business model, stg_customers, is to extract and rename essential customer information from the raw_customers data for streamlined analysis and utilization in downstream operations.
+-- Source Models: raw_customers
 with source as (
 
     {#-
