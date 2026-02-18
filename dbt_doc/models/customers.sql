@@ -1,4 +1,4 @@
--- Source Models: stg_customers
+-- Source Models: stg_customers, stg_orders, stg_payments
 -- Model Name   : customers
 with customers as (
 
