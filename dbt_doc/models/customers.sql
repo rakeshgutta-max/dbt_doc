@@ -1,6 +1,5 @@
--- Source Models: stg_customers, stg_orders, stg_payments
+-- Source Models: stg_customers
 -- Model Name   : customers
--- Purpose      : The purpose of this business model is to analyze customer data, including their order history and payment information, in order to calculate their lifetime value to the company.
 with customers as (
 
     select * from {{ ref('stg_customers') }}
@@ -11,7 +10,7 @@ orders as (
     select * from {{ ref('stg_orders') }}
 
 ),
-
+-- Purpose      : The purpose of this business model is to analyze customer data, including their order history and payment information, in order to calculate their lifetime value to the company.
 payments as (
 
     select * from {{ ref('stg_payments') }}
