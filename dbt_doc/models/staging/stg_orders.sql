@@ -1,4 +1,3 @@
--- Purpose      : The purpose of the "stg_orders" model is to transform and clarify raw order data by renaming the "user_id" column to "customer_id" for better understanding, while maintaining the same information from the source model "raw_orders".
 -- Model Name   : stg_orders
 -- Source Models: raw_orders
 with source as (
